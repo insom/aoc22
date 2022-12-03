@@ -4,3 +4,6 @@ day1: day1.cc
 day2: day2.cc
 	g++ -g day2.cc -o day2
 	./day2
+day2-2: day2-2.cc
+	g++ -g day2-2.cc -o day2-2
+	./day2-2
