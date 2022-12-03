@@ -23,4 +23,5 @@ int main() {
     }
     sort(elves.begin(), elves.end(), greater<int>());
     cout << elves[0] << "\n";
+    cout << elves[0] + elves[1] + elves[2] << "\n";
 }
