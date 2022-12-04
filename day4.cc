@@ -9,6 +9,7 @@ int main() {
     std::ifstream ifs ("input4");
     std::string line;
     int score = 0;
+    int score_two = 0;
 
     while(ifs.good()) {
         std::set<int> shifts[2];
@@ -49,6 +50,10 @@ int main() {
                 intersection.size() == shifts[1].size()) {
             score++;
         }
+        if(intersection.size() > 0) {
+            score_two++;
+        }
     }
     cout << score << "\n";
+    cout << score_two << "\n";
 }
