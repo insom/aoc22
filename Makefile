@@ -17,4 +17,10 @@ day3-2: day3-2.cc
 day4: day4.cc
 	g++ -g day4.cc -o day4
 	./day4
+day5: day5.cc
+	g++ -g day5.cc -o day5
+	./day5
+day5-2: day5-2.cc
+	g++ -g day5-2.cc -o day5-2
+	./day5-2
 .PHONY: all
