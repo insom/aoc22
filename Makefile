@@ -1,4 +1,4 @@
-all: day1 day2 day2-2 day3 day3-2 day4
+all: day1 day2 day2-2 day3 day3-2 day4 day5 day5-2 day6
 day1: day1.cc
 	g++ -g day1.cc -o day1
 	./day1
@@ -23,4 +23,7 @@ day5: day5.cc
 day5-2: day5-2.cc
 	g++ -g day5-2.cc -o day5-2
 	./day5-2
+day6: day6.cc
+	g++ -g day6.cc -o day6
+	./day6
 .PHONY: all
